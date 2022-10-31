@@ -14,11 +14,17 @@ export default function Profile({ start }: IProps) {
     }, 200);
   }, [start]);
   return (
-    <div className="w-1/2 absolute top-20 right-0">
+    <div className="w-1/2 absolute top-16 right-0">
       <div className={`card-content ${fadein && "fadein"}`}>
         <div className="tilting-card-content bg-white rounded-xl">
+          <div
+            style={{
+              backgroundImage: `url("/img/profile.jpg")`,
+            }}
+            className="absolute w-full h-64 bg-cover bg-no-repeat rounded-b-md"
+          ></div>
           <span className="w-full pt-1 px-1">
-            <h1 className="text-start text-lg font-semibold mb-2 text-slate-700">
+            <h1 className="text-start text-lg font-semibold mb-2 text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-900">
               SeongUn Hwang
             </h1>
             <h2 className="font-normal text-slate-800">

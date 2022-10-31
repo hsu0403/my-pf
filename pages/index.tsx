@@ -58,7 +58,7 @@ const Home: NextPage = () => {
   return start ? (
     <>
       <Head>
-        <title>title</title>
+        <title>SeongUn&#39;s PF</title>
       </Head>
       <Menu start />
       <section
@@ -76,7 +76,7 @@ const Home: NextPage = () => {
       </section>
       <section
         id="page3"
-        className="bg-gradient-to-tr from-indigo-500 h-screen relative"
+        className="bg-gradient-to-tr from-indigo-500 h-[170vh] sm:h-screen relative"
       >
         <Portfolioes name={name} onNameClick={onNameClick} page={page.page3} />
       </section>

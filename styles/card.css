@@ -11,14 +11,13 @@
   box-shadow: var(--shadow);
   padding: 2rem;
   aspect-ratio: 1 / 2;
-  background-image: url("https://images.unsplash.com/photo-1528321917418-af00f8823ded?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTg0MjY1Mzg&ixlib=rb-1.2.1&q=80&w=800");
   background-size: contain;
   background-repeat: no-repeat;
   transform: perspective(var(--perspective)) rotateX(var(--rotateX))
     rotateY(var(--rotateY));
   transition: transform 350ms ease;
-  width: 300px;
-  height: 300px;
+  width: 260px;
+  height: 355px;
 }
 
 .tilting-card-content > span {
