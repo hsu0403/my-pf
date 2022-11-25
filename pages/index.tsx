@@ -63,7 +63,7 @@ const Home: NextPage = () => {
       <Menu start />
       <section
         id="page1"
-        className="relative bg-gradient-to-tr from-indigo-500 h-screen"
+        className="relative bg-gradient-to-tr from-indigo-500 h-screen w-full"
       >
         <Profile start />
         <Interview start />

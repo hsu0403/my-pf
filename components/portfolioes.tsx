@@ -90,8 +90,8 @@ export default function Portfolioes({ page, name, onNameClick }: IProps) {
       >
         Portfolio
       </h1>
-      <div className="absolute w-full h-80 left-36 sm:left-48 transition-all">
-        <div className="w-3/4">
+      <div className="absolute w-full h-80 transition-all">
+        <div className="w-3/4 sm:ml-48 ml-36 transition-all">
           <h2
             className={`text-2xl font-semibold mb-2 ml-6 ${fadein && "fadein"}`}
           >
@@ -104,7 +104,7 @@ export default function Portfolioes({ page, name, onNameClick }: IProps) {
             portfolio={front}
           />
         </div>
-        <div className="w-3/4">
+        <div className="w-3/4 sm:ml-48 ml-36 transition-all">
           <h2
             className={`text-2xl font-semibold mb-2 ml-6 mt-4 ${
               fadein && "fadein"
